@@ -1,13 +1,13 @@
 import Home from "./Home";
 import styled from 'styled-components';
 import overheadImage from './../images/multipill.jpg'; // Import the image
-import backgroundImgae from './../images/19369.jpg';
+import backgroundImgae from './../images/dna.png';
 
 const HomeStyled = styled(Home)`
     
 
     .home-page-topdata{
-        background-image: url(${backgroundImgae});
+    background-image: url(${backgroundImgae});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,10 +27,28 @@ const HomeStyled = styled(Home)`
      flex: 1 1 30%;
      max-width: 30%;
      box-sizing: border-box;
+     box-shadow: 4px 4px;
    }
+
+
 
    .home-page-messages{
     text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    button{
+        height: 30px;
+        width: 120px;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+
+        :hover{
+            color: white;
+            background-color: black;
+        }
+    }
    }
 
    .greet{
@@ -60,6 +78,33 @@ const HomeStyled = styled(Home)`
         -webkit-background-clip:text;
         background-clip: text;
        
+    }
+
+    .why-choose-us-container{
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+
+        h1{
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        
+    }
+
+    .frequently-question-container{
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+
+        h2{
+            color: red;
+        }
     }
 
     
