@@ -1,5 +1,9 @@
 import React,{useState} from "react"
 import GreetMessages from "./Messages/GreetMessages";
+import WhyChooseUsMessage from "./Messages/WhyChooseUs";
+import FrequentlyAsked from "./Messages/FrequentlyQuestions";
+import question from './../images/questionmark.jpg'
+
 const Home = (props) => {
    const [isExpansedMessageId, setExpandedMessageId] = useState(null);
     const trunCateMessages = (text, limit, isExpansedMessageId) => {
@@ -34,6 +38,36 @@ const Home = (props) => {
                     })
                 }
             </div>
+
+            <div className="why-choose-us-container">
+                <h1>Why Choose Us</h1>
+                {
+                   WhyChooseUsMessage.map((data) =>{
+                        return(
+                            
+                            <ul>
+                                <li><b>{data}</b></li>
+                            </ul>
+                        )
+                   })
+                }
+            
+            </div>
+
+            <div className="frequently-question-container">
+                <h1>Frequenty Asked Questions</h1>
+                   {
+                    FrequentlyAsked.map((data) => {
+                        return(
+                            <div key={data.id}>
+                                 <h2>{data.question}</h2>
+                                 <p>{data.answer}</p>
+                            </div>
+                        )
+                    })
+                   }
+            </div>
+
         </div>
     )
 }
