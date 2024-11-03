@@ -99,8 +99,9 @@ const HomeStyled = styled(Home)`
 
     .frequently-question-container{
         text-align: center;
-        margin-top: 20px;
+        margin: 20px;
         border: 2px solid black;
+        border-radius: 5px;
 
         h2{
             color: red;

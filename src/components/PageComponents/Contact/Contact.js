@@ -3,10 +3,12 @@ import GreetMessages from "../Messages/GreetMessages";
 import Email from './../../images/email.png';
 import address from './../..//images/location.png';
 import phone from './../../images/phone.png'
+import BreadcumbStyled from "../../CommonComponents/Breadcumb/Breadcumb.Styled";
 const Contact = (props) => {
     return(
 
         <div className={props.className}>
+            <BreadcumbStyled/>
             <h1>CONTACT US</h1>
             <div className="contacts">
              <div className="information-from-user">

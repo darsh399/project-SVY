@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 const ContactStyled = styled(Contact)`
 text-align: center;
+background: linear-gradient(to bottom right, #f4f4f8, #e2e2eb);
+
 .contacts{
 display: flex;
 flex-direction: row;
