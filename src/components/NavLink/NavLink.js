@@ -4,12 +4,12 @@ const NavLink = (props) => {
     return(
         <nav className={props.className}>
             <ul>
-                <Link to='/about'>
-                    About
-                </Link>
-
                 <Link to='/'>
                     Home
+                </Link>
+
+                <Link to='/about'>
+                    About
                 </Link>
 
                 <Link to='/products'>

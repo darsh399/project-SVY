@@ -52,6 +52,7 @@ const ButtonStyled = styled(Button)`
         color: ${props.customColor || '#000'};
         width: ${props.width || ''};
         height: ${props.height || ''};
+        fontsize: ${props.font || ''}
 
       .button:hover,
       .button:active {

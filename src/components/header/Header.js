@@ -2,18 +2,17 @@ import React from "react";
 import NavLinkStyled from "../NavLink/NavLink.Styled";
 import Logo from "../CommonComponents/Logo";
 const Header = (props) => {
-    return(
+    return (
         <div className={props.className}>
             <div className="logo-header">
-            <Logo/>
-        
+                <Logo />
                 <h2 className="heading">Svy Biotech</h2>
             </div>
 
             <div className="nav-links">
-               <NavLinkStyled/>
+                <NavLinkStyled />
             </div>
-            
+
         </div>
     )
 }

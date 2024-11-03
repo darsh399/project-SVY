@@ -2,7 +2,7 @@ import React,{useState} from "react"
 import GreetMessages from "./Messages/GreetMessages";
 import WhyChooseUsMessage from "./Messages/WhyChooseUs";
 import FrequentlyAsked from "./Messages/FrequentlyQuestions";
-import question from './../images/questionmark.jpg'
+import Breadcrumb from "../CommonComponents/Breadcumb/Breadcumb";
 
 const Home = (props) => {
    const [isExpansedMessageId, setExpandedMessageId] = useState(null);
@@ -17,6 +17,7 @@ const Home = (props) => {
    
     return (
         <div className={props.className}>
+            <Breadcrumb/>
             <div className="home-page-topdata">
                     <h2 className="greet">{GreetMessages.home_page_greets.greet}</h2>
                 <div>
