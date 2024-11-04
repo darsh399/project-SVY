@@ -6,7 +6,7 @@ import forward from './../../images/forward.jpg'
 const GreetMessages = {
 
     home_page_greets: {
-        headLine: "Transforming Lives With Quality-Assured Pharmaceutical Solutions",
+        headLine: "Transforming Lives With Quality-Assured Pharmaceutical Solutions With Svy BioTech",
         greet: "Welcome To SVY BIOTECH",
         homepage_mgs: "A Division Of Sieben Healthcare",
         main_heading: "Innovative Solutions for Better Health"

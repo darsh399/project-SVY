@@ -19,7 +19,6 @@ const Home = (props) => {
         <div className={props.className}>
             <Breadcrumb/>
             <div className="home-page-topdata">
-                    <h2 className="greet">{GreetMessages.home_page_greets.greet}</h2>
                 <div>
                     <h1 className="greeting-message">{GreetMessages.home_page_greets.headLine}</h1>
                 </div>

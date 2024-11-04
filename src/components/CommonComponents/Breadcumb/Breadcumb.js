@@ -16,7 +16,7 @@ function Breadcrumb(props) {
                     <ButtonStyled customStyled key={to}>
                         {" > "}
                         {isLast ? (
-                            <span>{value.charAt(0).toUpperCase() + value.slice(1)}</span>
+                            <span className='active-page'>{value.charAt(0).toUpperCase() + value.slice(1)}</span>
                         ) : (
                             <ButtonStyled customStyled to={to}>{value.charAt(0).toUpperCase() + value.slice(1)}</ButtonStyled>
                         )}

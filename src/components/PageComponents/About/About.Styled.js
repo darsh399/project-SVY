@@ -10,8 +10,8 @@ const AboutStyled = styled(About)`
     background-color: #f9f9f9;
 
     img {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 400px;
         border-radius: 20px;
     }
 
