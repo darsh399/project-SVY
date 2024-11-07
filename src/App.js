@@ -1,12 +1,9 @@
-
-import Page from './components/pageComponent/Page';
-import { BrowserRouter } from 'react-router-dom';
+import FrontEndRoutes from "./components/Routes/FrontEndRoutes";
+import { RouterProvider } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <Page/>
-      </BrowserRouter>
+      <RouterProvider router={FrontEndRoutes}/>
      </div>
   );
 }

@@ -95,6 +95,26 @@ const HomeStyled = styled(Home)`
         }
     }
 
+    .homepage-partners{
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 20px;
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+            justify-content: space-around;
+
+            &:hover{
+              transform: scale(1.06);
+          }
+        }
+        
+    }
+
+
     
 `;
 
