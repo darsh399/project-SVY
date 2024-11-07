@@ -51,25 +51,12 @@ const HomeStyled = styled(Home)`
     }
    }
 
-   .greet{
-    font-size: 60px;
-    text-align: center;
-    margin-left: 20px;
-    background-image: url(${overheadImage});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: transparent;
-    -webkit-background-clip:text;
-    background-clip: text;
-
-   }
 
     .greeting-message {
         
         margin-left: 20px;
         font-size: 90px;
-        max-width: 60%;
+        max-width: 80%;
         background-image: url(${overheadImage});
         background-size: cover;
         background-repeat: no-repeat;
@@ -107,6 +94,26 @@ const HomeStyled = styled(Home)`
             color: red;
         }
     }
+
+    .homepage-partners{
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 20px;
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+            justify-content: space-around;
+
+            &:hover{
+              transform: scale(1.06);
+          }
+        }
+        
+    }
+
 
     
 `;

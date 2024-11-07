@@ -1,13 +1,12 @@
 import React from 'react';
 import HeaderStyled from '../header/Header.Styled';
-import Body from '../body/Body';
 import FooterStyled from '../footer/Footer.Styled';
-
+import { Outlet } from 'react-router-dom';
 const Page = () => {
     return(
         <div>
            <HeaderStyled/>
-           <Body/>
+           <Outlet/>
            <FooterStyled/>
         </div>
     )

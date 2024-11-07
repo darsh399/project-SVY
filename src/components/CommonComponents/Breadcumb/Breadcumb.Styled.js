@@ -9,6 +9,10 @@ display: flex;
     font-weight: bold;
     color: white;
  }
+ .active-page{
+   text-decoration: underline;
+  text-decoration-color: red; 
+ }
 `
 
 export default BreadcumbStyled;
