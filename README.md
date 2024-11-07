@@ -12,6 +12,6 @@ SVY Biotech is a web application designed to streamline the management and suppl
 
 
 ## Technologies Used
-- Frontend: React, styled-components
+- Frontend: React, styled-components, JavaScript
 - Database: MongoDB
 - Others: Git, GitHub, npm
