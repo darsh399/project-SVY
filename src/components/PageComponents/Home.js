@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import GreetMessages from "./Messages/GreetMessages";
 import WhyChooseUsMessage from "./Messages/WhyChooseUs";
 import FrequentlyAsked from "./Messages/FrequentlyQuestions";
-import Breadcrumb from "../CommonComponents/Breadcumb/Breadcumb";
 import image1 from './../images/partners/capsoft.jpeg';
 import image2 from './../images/partners/Livwell.jpeg';
 import image3 from './../images/partners/NID.jpeg';
@@ -23,7 +22,6 @@ const Home = (props) => {
 
     return (
         <div className={props.className}>
-            <Breadcrumb />
             <div className="home-page-topdata">
                 <div>
                     <h1 className="greeting-message">{GreetMessages.home_page_greets.headLine}</h1>

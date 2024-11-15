@@ -19,6 +19,7 @@ const HomeStyled = styled(Home)`
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+
    }
 
    .home-page-content div{
@@ -44,9 +45,10 @@ const HomeStyled = styled(Home)`
         font-size: 20px;
         cursor: pointer;
 
-        :hover{
+        &:hover{
             color: white;
             background-color: black;
+            transform: scale(1.2);
         }
     }
    }
@@ -71,6 +73,7 @@ const HomeStyled = styled(Home)`
         margin: 20px;
         border: 2px solid black;
         border-radius: 5px;
+        text-align: center;
 
         h1{
             text-align: center;

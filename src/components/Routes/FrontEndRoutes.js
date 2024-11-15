@@ -4,8 +4,7 @@ import HomeStyled from "../PageComponents/Home.Styled"
 import AboutStyled from "../PageComponents/About/About.Styled"
 import ContactStyled from "../PageComponents/Contact/Contact.Styled"
 import NotFound from "../CommonComponents/PageNotFound/NotFound";
-import ProductStyled from "../PageComponents/Product/Product.Styled"
-
+import ProductData from './../PageComponents/Product/ProductData';
 const FrontEndRoutes = createBrowserRouter([
     {
         path:'/',
@@ -25,7 +24,7 @@ const FrontEndRoutes = createBrowserRouter([
             },
             {
                 path:'products',
-                element:<ProductStyled/>
+                element:<ProductData/>
             },
             {
                 path: '*',
